@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'morocco':'_اوامر للسعوديين_',
+  'morocco':'اوامر عامه',
   'applications':'‎ أوامر التطبيقات‎',
   'drawing':'‎ توليد الصور‎ أوامر' ,
   'ai':'‎ الذكاء الاصطناعي‎ أوامر',
@@ -31,7 +31,7 @@ const defaultMenu = {
   ≡ *T D M 1♥️ | M E N U*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
-  body: '┃⋄ %cmd %isdiamond %isPremium',
+  body: '┃⋄ جاري العمل عليها',
   footer: '┗━━━━━━━━⬣\n',
   after: '*إستخدامك للبوت بشكل سليم يعني انك تزيد من احتمالية استمراره‼️*\n+966508637472',
 }
