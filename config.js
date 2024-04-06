@@ -10,23 +10,21 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['212717457920', 'bobiza', true],
-
-  ['212717457920','bobiza', true],
-  ['212717457920'],
-  ['212717457920']
+  ['966508637472', '𝐒𝐔𝐋𝐓𝐀𝐍-𝕷 🩵 ¦ 誇り', true],
+  ['966508637472', '𝐒𝐔𝐋𝐓𝐀𝐍-𝕷 🩵 ¦ 誇り', true],
+  ['966508637472', '𝐒𝐔𝐋𝐓𝐀𝐍-𝕷 🩵 ¦ 誇り', true],
+  ['966508637472', '𝐒𝐔𝐋𝐓𝐀𝐍-𝕷 🩵 ¦ 誇り', true],
 ];
+global.suittag = ['966508637472'];
+global.prems = ['966508637472'];
 
-global.suittag = ['212717457920'];
-global.prems = ['212717457920'];
-
-global.packname = 'bobiza bot';
-global.author = 'bobiza';
-global.wm = 'bobiza';
-global.titulowm = 'bobiza';
-global.titulowm2 = `bobiza`
-global.igfg = 'bobiza';
-global.wait = '*|🏃| loading...*\n*نحاول تلبية طلبكم لا تستعجلوا* ♥\ninstagram.com/noureddine_ouafy';
+global.packname = '『𝐊𝐈𝐍𝐆𝐃𝐎𝐌 ♥️ ¦ 誇り』';
+global.author = '『¹𝐓𝐃𝐌-𝐁𝐎𝐭¹♥️¦ 誇り』';
+global.wm = '『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』';
+global.titulowm = '『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』';
+global.titulowm2 = `『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』`
+global.igfg = '『𝐊𝐈𝐍𝐆𝐃𝐎𝐌 ♥️¦ 誇り』';
+global.wait = '*|🏃| loading...*\n*[❗] يرجى الانتظار لحظه...*';
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
@@ -45,15 +43,15 @@ global.mes = d.toLocaleDateString('en', {month: 'long'});
 global.año = d.toLocaleDateString('en', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBOBIZA`;
-global.gt = 'BOBIZA';
-global.mysticbot = 'The BOBIZA';
-global.md = 'https://instagram.com/noureddine_ouafy';
-global.mysticbot = 'https://instagram.com/noureddine_ouafy';
+global.wm2 = `${dia} ${fecha}\nTDM1`;
+global.gt = 'TDM1';
+global.mysticbot = 'The TDM1';
+global.md = '';
+global.mysticbot = '';
 global.waitt = '*[ ⏳ ] LOADING...*';
 global.waittt = '*[ ⏳ ] LOADING...*';
 global.waitttt = '*[ ⏳ ] LOADING...*';
-global.nomorown = '212605784394';
+global.nomorown = '966508637472';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
