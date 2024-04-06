@@ -21,19 +21,19 @@ let tags = {
   'uploader':'‎‎ رفع الملفات‎',
 }
 const defaultMenu = {
-  before: `السلام عليكم 👋. 
+  before: `مرحب كبير 👋. 
 
-┏━━ salam  *%name*
+┏━━ Marhab  *%name*
 👥 *Total user:* %totalreg 
 ⏰ *Uptime:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
-  ≡ *B O B I Z A | M E N U*
+  ≡ *T D M 1♥️ | M E N U*
 `.trimStart(),
   header: '┏━━⊜ *_%category_* ',
   body: '┃⋄ %cmd %isdiamond %isPremium',
   footer: '┗━━━━━━━━⬣\n',
-  after: '*إستخدامك للبوت بشكل صحيح يعني أنك تزيد من إحتمالية أن يبقى البوت شغالا لمدة أطول . لذا إن واجهتك أي مشكلة لا تخجل من سؤال صاحب البوت .رقمه سوف تجده في الأسفل + شارك فيديوهات صاحب البوت تشجيعا له ان كان هذا البوت قد نال إعجابك*\n+212717457920',
+  after: '*إستخدامك للبوت بشكل سليم يعني انك تزيد من احتمالية استمراره‼️*\n+966508637472',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
@@ -136,11 +136,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'BOBIZA BOT ♥',
-body: "أول بوت واتساب في العالم العربي 💖",
+title: 'TDM1 BOT ♥️',
+body: "يبدو فلاح اكبر خاصة باين ساما♥️",
 thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
-sourceUrl: 'https://instagram.com/noureddine_ouafy',
-mediaType: 1,
+sourceUrl: 'https://chat.whatsapp.com/Cg8poQZIK8d11c8nsN8BHl',
+mediaType: 'https://youtube.com/@Kingdomxbrv?si=j0ob-OalnqeZ8-x8',
 renderLargerThumbnail: true
 }}}, { quoted: m})
 
@@ -152,7 +152,7 @@ renderLargerThumbnail: true
     ],m, rpl)*/
 
   } catch (e) {
-    conn.reply(m.chat, '❎ هناك خطأ في لائحة الاوامر', m)
+    conn.reply(m.chat, '❎ ياللهول هناك خطأ في لائحة الاوامر', m)
     throw e
   }
 }
