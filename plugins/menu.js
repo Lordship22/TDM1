@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 //import { plugins } from '../lib/plugins.js'
 let tags = {
-  'morocco':'  ‎أوامر للسعوديين',
+  'morocco':'_اوامر للسعوديين_',
   'applications':'‎ أوامر التطبيقات‎',
   'drawing':'‎ توليد الصور‎ أوامر' ,
   'ai':'‎ الذكاء الاصطناعي‎ أوامر',
@@ -23,9 +23,9 @@ let tags = {
 const defaultMenu = {
   before: `مرحب كبير 👋. 
 
-┏━━ Marhab  *%name*
-👥 *Total user:* %totalreg 
-⏰ *Uptime:* %muptime  
+┏━━ مرحب كبير  *%name*
+👥 *عدد المستخدمين:* %totalreg 
+⏰ *مدة التشغيل:* %muptime  
 ┗━━━━━━━━━━⬣
 %readmore
   ≡ *T D M 1♥️ | M E N U*
