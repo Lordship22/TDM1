@@ -24,7 +24,7 @@ global.wm = '『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』';
 global.titulowm = '『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』';
 global.titulowm2 = `『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 🤖 ¦ 誇り』`
 global.igfg = '『𝐊𝐈𝐍𝐆𝐃𝐎𝐌 ♥️¦ 誇り』';
-global.wait = '*|🏃| loading...*\n*[❗] يرجى الانتظار لحظه...*';
+
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
