@@ -136,7 +136,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'TDM1 BOT ♥️',
+title: '『¹𝐓𝐃𝐌¹-𝐁𝐎𝐭 ♥️ ¦ 誇り』',
 body: "يبدو فلاح اكبر خاصة باين ساما♥️",
 thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
 sourceUrl: 'https://chat.whatsapp.com/Cg8poQZIK8d11c8nsN8BHl',
@@ -158,7 +158,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['menu']
 handler.tags = ['infobot']
-handler.command = ['menu','b','list'] 
+handler.command = ['menu','اوامر','list'] 
 handler.register = false
 
 
