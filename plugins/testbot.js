@@ -17,7 +17,7 @@ await conn.reply(m.chat, info, m, { contextInfo: { mentionedJid: [m.sender],forw
         quoted: m
     })
 }
-handler.customPrefix = /^(tes|سلام|menu|Menu|apk|bobizaty|♥|salam|hy|Hello|.|شكرا|مرحبا)$/i
+handler.customPrefix = /^(tes|بعيرنكب|me)$/i
 handler.command = new RegExp
 
 export default handler
