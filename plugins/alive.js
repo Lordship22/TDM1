@@ -2,11 +2,11 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
 ╭────────────────────
-│👋 مرحبا يا , ${conn.getName(m.sender)}!
-│🤖 أتمنى أنك بخير ♥ البوت أون لاين الآن 
+│👋 مرحب كبير , ${conn.getName(m.sender)}!
+│🤖 ارغو بخير ♥️ يبدو متصل أون لاين الآن 
 يمكنك إستخدامه عبر كتابة menu.
 ╰────────────────────
-*─[ BY NOUREDDINE_OUAFY ]*🌟✨
+*─[ BY 𝐒𝐔𝐋𝐓𝐀𝐍-𝕷 🩵 ¦ 誇り ]*🌟✨
 `.trim()
   m.reply(caption)
 }
