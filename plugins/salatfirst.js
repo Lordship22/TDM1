@@ -15,7 +15,7 @@ export async function before(m) {
         العشاء: "20:33"
     };
     const date = new Date(new Date().toLocaleString("en-US", {
-      timeZone:"Africa/Casablanca"
+      timeZone:"Asia/Makkah"
     }));
     const hours = date.getHours();
     const minutes = date.getMinutes();
