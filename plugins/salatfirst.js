@@ -15,14 +15,14 @@ export async function before(m) {
         العشاء: "20:33"
     };
     const date = new Date(new Date().toLocaleString("en-US", {
-      timeZone:"Africa/Casablanca"
+      timeZone:"Asia/Makkah"
     }));
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const timeNow = `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}`;
     for (const [sholat, waktu] of Object.entries(jadwalSholat)) {
         if (timeNow === waktu) {
-            let caption = `تدمير هنا  *${name}*,\nحان موعد صلاة *${sholat}* هيا توضأ بسرعة وقوم لصلاتك ♥ لا تنسنا من الدعاء هاه.\n\n*${waktu}*\n_هذا توقيت الصلاة في مكة المكرمه_`;
+            let caption = `تدمير هنا  *${name}*,\nحان موعد صلاة *${sholat}* هيا توضأ بسرعة وقوم لصلاتك♥لا تنسنا من الدعاء هاه.\n\n*${waktu}*\n_هذا توقيت الصلاة في مكة المكرمه_`;
             this.autosholat[id] = [
                 this.reply(m.chat, caption, null),
                 setTimeout(() => {
