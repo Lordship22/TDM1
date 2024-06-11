@@ -75,6 +75,7 @@
     "api-dylux": "^1.2.2",
     "@vitalets/google-translate-api":"^8.0.0",
     "stream":"*",
+    "assert":"*",
     "pdfkit":"*",
     "aptoide-scraper":"*",
     "yt-search":"*",
