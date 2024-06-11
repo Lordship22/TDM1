@@ -20,8 +20,7 @@ let handler = async (m, { command, text }) => m.reply(`*✨مــــنــور 
 ‼️ *دخــول الـبـنـات ممــــنوع* ‼️
 _*🏯⇄┆مـع تـحـيـات الإدارة الـعـلـيـ🪶ـا.*_
 
-『𝐊𝐈𝐍𝐆𝐃𝐎𝐌 ♥️¦ 誇り』
-*✦━━━━━[  _¹تدمير¹_  ]━━━━━✦*`.trim(), null, m.mentionedJid ? {
+*⬣━『𝐊𝐈𝐍𝐆𝐃𝐎𝐌 ♥️¦ 誇り』━⬣*`.trim(), null, m.mentionedJid ? {
   mentions: m.mentionedJid
 } : {})
 
