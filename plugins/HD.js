@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 handler.help = ['hd']
 handler.tags = ['tools', 'ai']
-handler.command = /^(hd|جودة)$/i
+handler.command = /^(جوده|جودة|hd)$/i
 
 handler.register = false
 handler.limit = false
