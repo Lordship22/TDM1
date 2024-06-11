@@ -1,5 +1,5 @@
 {
-  "name": "TheMystic-Bot-MD",
+  "name": "TMD1-Bot",
   "version": "1.0.0",
   "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
   "main": "index.js",
@@ -92,6 +92,9 @@
     "openai": "^3.1.0",
     "hxz-api":"*",
     "fluid-spotify.js":"*",
+    "path":"*",
+    "child_process":"*",
+    "syscall":"*",
     "sanzy-spotifydl":"*",
     "yargs": "^17.3.1",
     "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
