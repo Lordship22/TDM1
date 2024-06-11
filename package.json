@@ -63,6 +63,8 @@
     "../lib/uploadImage.js":"*",
     "../lib/uploadFile.js":"*",
     "../lib/sticker.js":"*",
+    "../lib/levelling.js":"*",
+    "../lib/canvas.js":"*",
     "mongoose": "^6.3.3",
     "node-cache": "^5.1.2",
     "node-fetch": "^3.2.0",
